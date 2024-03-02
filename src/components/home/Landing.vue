@@ -12,7 +12,7 @@
         </button>
     </div> -->
 
-    <div class="bg-[url('@/assets/LandingPage50.png')] bg-contain w-screen h-screen flex mx-auto bg-no-repeat bg-opacity-50">
+    <div class="bg-[url('@/assets/LandingPage50.png')] bg-contain w-full h-full flex mx-auto bg-no-repeat bg-opacity-50">
         <div class="pt-96 pl-12 flex-col flex">
             <p1 class="text-white font-semibold text-4xl pb-2">
                 Texas A&M Formula SAE EV 2024
