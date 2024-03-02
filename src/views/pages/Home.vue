@@ -2,9 +2,7 @@
   <div :class="mainStore.spooky ? 'bg-black text-white' : ''">
     <Landing></Landing>
     <Stats></Stats>
-    <MeetTeam> </MeetTeam>
     <Sponsors></Sponsors>
-    <About></About>
   </div>
 </template>
 
