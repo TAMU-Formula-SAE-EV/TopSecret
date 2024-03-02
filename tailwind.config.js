@@ -11,6 +11,9 @@ export default {
         'off-white': '#F8F9FA',
       },
     },
+    fontFamily: {
+      'sans': ['Open Sans', 'sans-serif'],
+    }
   },
   plugins: [],
 }

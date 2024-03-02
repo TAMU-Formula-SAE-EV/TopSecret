@@ -1,5 +1,5 @@
 <template>
-  <Header class="absolute top-0 left-0 w-full bg-white z-10" />
+  <Header class="absolute top-0 left-0 w-full z-10" />
   <router-view></router-view>
   <Footer></Footer>
 </template>
