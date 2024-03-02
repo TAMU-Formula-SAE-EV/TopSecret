@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full text-center">
+  <div class="w-full text-center px-4">
     <div class="grid grid-cols-8 gap-x-5 my-10">
       <div class="flex flex-col gap-y-5 mt-56">
         <div class="flex rounded-3xl aspect-square bg-off-white" style="box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);">
