@@ -1,7 +1,7 @@
 <template>
-    <MeetTeam></MeetTeam>
+    <About></About>
 </template>
 
 <script setup lang="ts">
-    import MeetTeam from '@/components/About/MeetTeam.vue';
+    import About from '@/components/About/About.vue';
 </script>
