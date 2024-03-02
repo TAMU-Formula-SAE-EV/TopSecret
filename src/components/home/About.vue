@@ -26,10 +26,8 @@
             <div class="absolute -top-5 left-0 right-0 h-5 w-72 bg-white mx-auto"></div>
             <div class="absolute -bottom-5 left-0 right-0 h-5 w-72 bg-white mx-auto"></div>
         </div>
-
-        <div class="mt-24 bg-aggie-maroon">
-            <MeetTeam class="mt-16 text-white"></MeetTeam>
-        </div>
+        
+        <MeetTeam class="mt-16"></MeetTeam>
 
     </div>
 </template>
