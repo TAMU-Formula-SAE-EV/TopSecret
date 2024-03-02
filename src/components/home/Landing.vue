@@ -1,9 +1,6 @@
-<script setup lang="ts">
-
-</script>
-
 <template>
-    <div class="bg-[url('@/assets/LandingPage50.png')] w-full bg-cover pb-16 bg-no-repeat bg-opacity-50">
+    <p @click="mainStore.spooky = !mainStore.spooky">Spookify {{ mainStore.spooky }}</p>
+    <div :class="mainStore.spooky ? 'bg-[url(\'@/assets/crazy-wallpaper.png\')]' : 'bg-[url(\'@/assets/LandingPage50.png\')]'" class="w-full bg-cover pb-16 bg-no-repeat bg-opacity-50">
         <div class="pt-96 pl-12 flex-col flex">
             <p1 class="text-white font-semibold text-4xl pb-2">
                 Texas A&M Formula SAE EV 2024
@@ -23,7 +20,10 @@
             </div>
         </div>
     </div>
+</template>
 
+<script setup lang="ts">
+import { useMainStore } from "@/store";
 
-
-</template> 
+const mainStore = useMainStore();
+</script>
