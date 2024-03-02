@@ -3,5 +3,5 @@
 </template>
 
 <script setup lang="ts">
-    import MeetTeam from '@/components/home/MeetTeam.vue';
+    import MeetTeam from '@/components/About/MeetTeam.vue';
 </script>
