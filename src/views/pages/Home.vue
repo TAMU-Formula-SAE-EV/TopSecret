@@ -1,5 +1,5 @@
 <template>
-  <div :class="mainStore.spooky ? 'bg-black' : ''">
+  <div :class="mainStore.spooky ? 'bg-black text-white' : ''">
     <Landing></Landing>
     <Stats></Stats>
     <MeetTeam> </MeetTeam>

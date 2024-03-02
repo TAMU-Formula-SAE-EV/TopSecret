@@ -1,5 +1,4 @@
 <template>
-    <p @click="mainStore.spooky = !mainStore.spooky">Spookify {{ mainStore.spooky }}</p>
     <div :class="mainStore.spooky ? 'bg-[url(\'@/assets/crazy-wallpaper.png\')]' : 'bg-[url(\'@/assets/LandingPage50.png\')]'" class="w-full bg-cover pb-16 bg-no-repeat bg-opacity-50">
         <div class="pt-96 pl-12 flex-col flex">
             <p1 class="text-white font-semibold text-4xl pb-2">
@@ -10,7 +9,8 @@
             </p1>
             <div class="flex-row flex">
                 <div class="pr-4">
-                    <button class="bg-white outline-color-white rounded-2xl h-fit py-3 w-fit px-8 text-l font-medium flex hover:scale-105 transition duration-200">
+                    <button class="bg-white outline-color-white rounded-2xl h-fit py-3 w-fit px-8 text-l font-medium flex hover:scale-105 transition duration-200"
+                  :class="mainStore.spooky ? 'text-black':''">
                         Sponsor or Donate
                     </button>
                 </div>
