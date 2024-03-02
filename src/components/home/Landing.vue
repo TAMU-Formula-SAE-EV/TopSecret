@@ -9,4 +9,5 @@
         <p1 class="text-white font-semibold text-3xl">Texas A&M Formula SAE EV 2024</p1>
         <button class="bg-color"></button>
     </div>
+
 </template>
