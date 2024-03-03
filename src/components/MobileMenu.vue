@@ -49,8 +49,6 @@
 </template>
 
 <script setup lang="ts">
-// eslint-disable-next-line no-restricted-globals, @typescript-eslint/no-unused-vars
-const loc = location.href;
 defineEmits(["toggle"]);
 </script>
 
