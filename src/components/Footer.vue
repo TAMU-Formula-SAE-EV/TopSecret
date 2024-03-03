@@ -21,7 +21,7 @@
             >
             <div class="text-2xl text-extrabold">/</div>
             <img 
-                :src="currentImagez__"
+                :src="currentImage__"
                 @mouseover="handleMouseOver__"
                 @mouseleave="handleMouseLeave__"
                 class="w-20 transition-opacity duration-300"
