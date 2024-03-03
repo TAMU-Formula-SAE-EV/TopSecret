@@ -12,7 +12,7 @@
     </div>
   </div> -->
 
-  <div class="w-full bg-cover bg-no-repeat h-auto text-center bg-[url('@/assets/2024-Team60.png')] p-16 flex-row flex mt-24">
+  <div class="w-full bg-cover bg-no-repeat h-auto text-center bg-[url('@/assets/about/2024-Team60.png')] p-16 flex-row flex mt-24">
     <div class="p-8">
       <h1 class="font-semibold text-4xl text-white pb-4" :class="mainStore.spooky ? 'text-white decoration-sky-600' : 'decoration-aggie-maroon'">Our Purpose</h1>
       <p class="p-6 text-xl text-white text-center">The purpose of the Texas A&M Formula Electric FSAE Team is to develop high-quality engineers who excel in the field of sustainable transportation engineering, primarily through the hands-on design, manufacturing, and testing of an electric formula-style vehicle.</p>

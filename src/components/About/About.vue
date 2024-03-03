@@ -2,18 +2,31 @@
     <div class="flex flex-col justify-items-center grid">
     <!-- about us tag and picture -->
         <div class="bg-[url('@/assets/banner.jpg')] w-full h-auto bg-cover bg-no-repeat justify-items-center grid">
-            <div class="bg-white rounded-t-3xl w-80 h-24 text-center pt-6 mt-48 flex flex-col"> <!-- rectangle !-->
+
+            <!-- <div class="bg-white rounded-t-3xl w-80 h-24 text-center pt-6 mt-48 flex flex-col"> rectangle 
                 <p1 class="text-2xl font-medium pb-1">
                     About Us
                 </p1>
                 <p1 class="text-xs text-gray-400">
                     Our Vision/Program Goal
                 </p1>
+            </div> -->
+
+            <div class="w-80 h-24 text-center pt-6 my-24 flex flex-col">
+                <p1 class="text-5xl font-semibold pb-1 text-white">
+                    About Us
+                </p1>
+                <p1 class="text-xl text-gray-200">
+                    Our Vision/Program Goal
+                </p1>
             </div>
+
+
+
         </div>
 
         <!-- design quote -->
-        <div class="outline outline-gray-300 rounded-3xl outline-[20px] w-auto h-48 flex flex-col text-center mt-20 py-5 px-16 relative text-aggie-maroon">
+        <div class="outline outline-gray-300 rounded-3xl outline-[16px] w-auto h-48 flex flex-col text-center mt-20 py-5 px-16 relative text-aggie-maroon">
             <p class="mb-4 text-4xl font-semibold italic">
                 "
             </p>
