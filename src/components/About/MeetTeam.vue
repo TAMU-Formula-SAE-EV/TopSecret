@@ -3,7 +3,7 @@
     <h1 class="mx-auto my-36 text-white text-4xl font-semibold">Meet the Team</h1>
   </div>
 
-  <div class="w-2/3 mx-auto text-center">
+  <div class="md:w-2/3 w-full mx-auto text-center">
     <p class="text-center text-2xl font-bold my-12">
       Leadership
     </p>
@@ -34,12 +34,12 @@
     </div>
   </div>
 
-  <div class="w-2/3 mx-auto text-center">
+  <div class="md:w-2/3 w-full mx-auto text-center">
     <p class="text-center text-2xl font-bold mt-12 mb-4">
       Subteams
     </p>
   </div>
-  <div class="grid grid-cols-2 w-1/2 mx-auto">
+  <div class="grid grid-cols-2 w-full px-6 md:px-0 md:w-1/2 mx-auto">
     <div class="w-full text-left">
       <p class="text-2xl font-semibold mt-12 underline underline-2 decoration-aggie-maroon">
         Aerodynamics
