@@ -4,7 +4,7 @@
       <img @click="mainStore.spooky = !mainStore.spooky" src="@/assets/logo.png" alt="FSAE EV logo" class="w-44" />
     </div>
     <div class="flex gap-x-10 my-auto" :class="mainStore.spooky ? 'text-black' : 'text-white'">
-      <p class="text-xl">Home</p>
+      <router-link to="/" class="text-xl">Home</router-link>
       <router-link to="/about" class="text-xl">About</router-link>
       <p class="text-xl">Gallery</p>
       <p class="text-xl">Sponsor</p>
