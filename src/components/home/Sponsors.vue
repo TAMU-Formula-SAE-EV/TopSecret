@@ -1,6 +1,6 @@
 <template>
   <div class="w-full text-center px-4">
-    <div class="grid grid-cols-2 md:grid-cols-8 space-x-2.5 md:gap-x-5 my-10">
+    <div class="grid grid-cols-2 md:grid-cols-8 space-x-2.5 md:gap-x-5 mt-10 pb-12">
       <div class="flex flex-col gap-y-5 mt-12 md:mt-56">
         <div class="flex rounded-3xl aspect-square" :class="mainStore.spooky ? 'bg-zinc-900':'bg-off-white'" style="box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);">
           <img src="@/assets/sponsor/Bendco.png" class="w-1/2 mx-auto my-auto" />

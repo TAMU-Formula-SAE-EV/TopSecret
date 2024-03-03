@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col justify-items-center grid">
+    <div :class="mainStore.spooky ? 'bg-black text-white' : ''" class="flex flex-col justify-items-center grid">
     <!-- about us tag and picture -->
         <div class="bg-[url('@/assets/banner50.jpg')] w-full h-auto bg-cover bg-no-repeat justify-items-center grid bg-right">
 
@@ -19,11 +19,13 @@
         <VisionPurpose class="my-12"></VisionPurpose>
         <MeetTeam></MeetTeam>
 
-
     </div>
 </template>
 
 <script setup lang="ts">
     import MeetTeam from './MeetTeam.vue';
     import VisionPurpose from './VisionPurpose.vue';
+
+    import { useMainStore } from "@/store";
+    const mainStore = useMainStore();
 </script>
