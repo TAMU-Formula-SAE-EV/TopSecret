@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bg-cover bg-no-repeat h-auto text-center bg-[url('@/assets/about/2024-Team60.png')]">
+  <div class="w-full bg-cover bg-no-repeat h-auto text-center bg-[url('@/assets/about/2024-Team60.png')] bg-center">
     <h1 class="mx-auto my-36 text-white text-4xl font-semibold">Meet the Team</h1>
   </div>
 
