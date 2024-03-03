@@ -3,7 +3,7 @@
 
         <img src="@/assets/footer/logo_black.png" class="mx-auto w-40">
 
-        <div class="flex items-center justify-center space-x-12">
+        <div class="flex items-center justify-center space-x-8">
             <img 
                 :src="currentImage"
                 @mouseover="handleMouseOver"
@@ -29,7 +29,7 @@
             >
         </div>
 
-        <div class="grid grid-cols-6 gap-1 text-sm text-gray-600">
+        <div class="grid grid-cols-6 gap-1 text-xs md:text-sm text-gray-600 text-center pr-4">
             <div class="">Cars</div>
             <div class="">TAMU SAE</div>
             <div class="">SAE</div>
