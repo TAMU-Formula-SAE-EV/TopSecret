@@ -39,7 +39,7 @@
         </div>
     </div>
 
-<div v-else class="grid grid-row-3 mt-7 mb-7 gap-3">
+<div v-else class="grid grid-row-3 pt-7 mb-7 gap-3">
 
   <img src="@/assets/footer/logo_black.png" class="mx-auto w-40">
 
