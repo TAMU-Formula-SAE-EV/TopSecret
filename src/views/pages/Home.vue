@@ -9,7 +9,7 @@
 
     <div class="w-2/3 mx-auto flex mt-24 mb-8">
       <div class="w-full">
-        <img v-if="!mainStore.spooky" class="mt-10 rounded-2xl ring-4 ring-aggie-maroon ring-offset-8" src="@/assets/home/quote.jpg" />
+        <img v-if="!mainStore.spooky" class="mt-10 rounded-2xl ring-4 ring-aggie-maroon ring-offset-8" src="@/assets/home/rsz_quote.jpeg" />
         <img v-else class="mt-10 rounded-2xl ring-4 ring-purple-500 ring-offset-8 ring-offset-black" src="@/assets/home/spooky-quote.png" />
       </div>
       <div class="z-10 w-1/2 -ml-32 rounded-xl">
