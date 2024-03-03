@@ -14,7 +14,7 @@
     <p>{{ TeamPM[0].role }}</p>
     <p class="text-xs">{{ TeamPM[0].major }}</p>
 
-    <div class="grid grid-cols-2 w-2/3 mx-auto my-6 gap-x-8">
+    <div class="grid md:grid-cols-2 w-2/3 mx-auto my-6 gap-x-8">
       <div class="w-full">
         <h3 class="font-semibold text-xl">
           {{ MechLead[0].name }}
@@ -23,7 +23,7 @@
         <p>{{ MechLead[0].role }}</p>
         <p class="text-xs">{{ MechLead[0].major }}</p>
       </div>
-      <div class="w-full">
+      <div class="w-full mt-6 md:mt-0">
         <h3 class="font-semibold text-xl">
           {{ ElecLead[0].name }}
           <a v-if="ElecLead[0].linkedinURL" :href="ElecLead[0].linkedinURL" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
