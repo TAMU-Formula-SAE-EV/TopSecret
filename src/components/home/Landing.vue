@@ -1,6 +1,6 @@
 <template>
     <div v-if="mainStore.spooky" class="bg-[url('@/assets/home/crazy-wallpaper.png')] w-full bg-cover pb-16 bg-no-repeat bg-opacity-50">
-        <div class="pt-96 pl-12 flex-col flex">
+        <div class="pt-96 pl-12 flex-col flex text-left">
             <p1 class="text-white font-semibold text-4xl pb-2">
                 Texas A&M Formula SAE EV 2024
             </p1>
@@ -21,7 +21,7 @@
         </div>
     </div>
   <div v-else class="bg-[url('@/assets/home/LandingPage50.png')] w-full bg-cover pb-16 bg-no-repeat bg-opacity-50">
-    <div class="pt-96 pl-12 flex-col flex">
+    <div class="pt-96 pl-12 flex-col flex text-left">
       <p1 class="text-white font-semibold text-4xl pb-2">
         Texas A&M Formula SAE EV 2024
       </p1>
