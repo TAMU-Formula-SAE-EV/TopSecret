@@ -229,7 +229,13 @@ const Suspension: Member[] = [
         role: "Suspension Engineer",
         major: "Mechanical Engineering",
         linkedinURL: "https://www.linkedin.com/in/david-castro-tamu/"
-    }   
+    },
+    {
+        name: "Matt Cain",
+        role: "Suspension Engineer",
+        major: "Mechanical Engineering",
+        linkedinURL: "https://www.linkedin.com/in/mcain12/"
+    }
 ]
 
 export const FullTeam: {
