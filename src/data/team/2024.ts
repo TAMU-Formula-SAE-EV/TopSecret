@@ -19,6 +19,7 @@ const Leads: Member[] = [
         name: "Ethan Reich",
         role: "Mechanical Chief",
         major: "Mechanical Engineering",
+        linkedinURL: ""
     },
     {
         name: "Jeff Cunningham",
@@ -29,14 +30,29 @@ const Leads: Member[] = [
 
 const Aerodynamics: Member[] = [
     {
-        name: "Phillip Bsomething",
+        name: "Phillip Bertschy",
         role: "Aerodynamics Lead",
-        major: "Aerospace Engineering",
+        major: "Mechanical Engineering",
     },
     {
         name: "Dennis Tan",
         role: "Aerodynamics Engineer",
-        major: "Aerospace Engineering",
+        major: "Mechanical Engineering",
+    },
+    {
+        name: "Brody Hesseltine",
+        role: "Aerodynamics Engineer",
+        major: "Mechanical Engineering",
+    },
+    {
+        name: "Luke Smith",
+        role: "Aerodynamics Engineer",
+        major: "Mechanical Engineering",
+    },
+    {
+        name: "Anirudh Tummalapalli",
+        role: "Aerodynamics Engineer",
+        major: "Mechanical Engineering",
     }
 ]
 
@@ -50,59 +66,121 @@ const Battery: Member[] = [
         name: "Raaj Patel",
         role: "Battery Engineer",
         major: "Electrical Engineering",
+    },
+    {
+        name: "Julian Tan",
+        role: "Battery Engineer",
+        major: "Mechanical Engineering",
+    },
+    {
+        name: "Andrew Lafferty",
+        role: "Battery Engineer",
+        major: "Mechanical Engineering",
+    },
+    {
+        name: "Jesus Ramos",
+        role: "Battery Engineer",
+        major: "Mechatronics Engineering",
     }
 ]
 
 const Chassis: Member[] = [
     {
-        name: "Phillip Bsomething",
-        role: "Aerodynamics Lead",
-        major: "Aerospace Engineering",
+        name: "Caleb Miller",
+        role: "Chassis Lead",
+        major: "Mechanical Engineering",
     },
     {
-        name: "Dennis Tan",
-        role: "Aerodynamics Member",
-        major: "Aerospace Engineering",
+        name: "Jonathan Lozano",
+        role: "Chassis Engineer",
+        major: "Mechanical Engineering",
+    },
+    {
+        name: "Jose Cruz",
+        role: "Chassis Engineer",
+        major: "Mechanical Engineering",
     }
 ]
 
 const Electronics: Member[] = [
     {
-        name: "Phillip Bsomething",
-        role: "Aerodynamics Lead",
-        major: "Aerospace Engineering",
+        name: "Jacinto Rodriguez Shahin",
+        role: "Electronics Lead",
+        major: "Electrical Engineering",
     },
     {
-        name: "Dennis Tan",
-        role: "Aerodynamics Member",
-        major: "Aerospace Engineering",
+        name: "Joshua Wu",
+        role: "Electronics Engineer",
+        major: "Computer Engineering",
+    },
+    {
+        name: "Giosef Hernandez",
+        role: "Electronics Engineer",
+        major: "Electrical Engineering",
+    },
+    {
+        name: "Blake Kruse",
+        role: "Electronics Engineer",
+        major: "Electrical Engineering",
+    },
+    {
+        name: "Praneeth Boddu",
+        role: "Electronics Engineer",
+        major: "Electrical Engineering",
+    },
+    {
+        name: "Adrian Rojas",
+        role: "Electronics Engineer",
+        major: "Electrical Engineering",
     }
 ]
 
 const Powertrain: Member[] = [
     {
-        name: "Phillip Bsomething",
-        role: "Aerodynamics Lead",
-        major: "Aerospace Engineering",
+        name: "Adan Corral",
+        role: "Powertrain Lead",
+        major: "Mechanical Engineering",
     },
     {
-        name: "Dennis Tan",
-        role: "Aerodynamics Member",
-        major: "Aerospace Engineering",
+        name: "Nick Martin",
+        role: "Powertrain Engineer",
+        major: "Electrical Engineering",
+    },
+    {
+        name: "Luis Diaz",
+        role: "Powertrain Engineer",
+        major: "Electrical Engineering",
+    },
+    {
+        name: "Robert Haefner",
+        role: "Powertrain Engineer",
+        major: "Mechanical Engineering",
     }
+    
+    
 ]
 
 const Suspension: Member[] = [
     {
-        name: "Phillip Bsomething",
-        role: "Aerodynamics Lead",
-        major: "Aerospace Engineering",
+        name: "Joseph Weaver",
+        role: "Suspension Lead",
+        major: "Mechanical Engineering",
     },
     {
-        name: "Dennis Tan",
-        role: "Aerodynamics Member",
-        major: "Aerospace Engineering",
-    }
+        name: "Mark Cheek",
+        role: "Suspension Engineer",
+        major: "Mechanical Engineering",
+    },
+    {
+        name: "Brendan Wyatt",
+        role: "Suspension Engineer",
+        major: "Mechanical Engineering",
+    },
+    {
+        name: "David Castro",
+        role: "Suspension Engineer",
+        major: "Mechanical Engineering",
+    }   
 ]
 
 export const FullTeam: {
