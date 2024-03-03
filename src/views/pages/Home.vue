@@ -7,12 +7,12 @@
     </div>
     <h1 class="text-6xl font-semibold italic my-5">"Design for testing time and quality."</h1>
 
-    <div class="w-2/3 mx-auto flex mt-24 mb-8">
-      <div class="w-full">
-        <img v-if="!mainStore.spooky" class="mt-10 rounded-2xl ring-4 ring-aggie-maroon ring-offset-8" src="@/assets/home/rsz_quote.jpeg" />
-        <img v-else class="mt-10 rounded-2xl ring-4 ring-purple-500 ring-offset-8 ring-offset-black" src="@/assets/home/spooky-quote.png" />
+    <div class="w-full lg:w-2/3 px-10 lg:mx-auto lg:flex mt-24 mb-8">
+      <div class="w-full flex">
+        <img v-if="!mainStore.spooky" class="mx-auto mt-10 rounded-2xl ring-4 ring-aggie-maroon ring-offset-8" src="@/assets/home/rsz_quote.jpeg" />
+        <img v-else class="mx-auto mt-10 rounded-2xl ring-4 ring-purple-500 ring-offset-8 ring-offset-black" src="@/assets/home/spooky-quote.png" />
       </div>
-      <div class="z-10 w-1/2 -ml-32 rounded-xl">
+      <div class="hidden lg:block z-10 w-1/2 -ml-32 rounded-xl">
         <p class="rounded-xl p-6  font-semibold" :class="mainStore.spooky ? 'bg-black' : 'bg-white'">Hi, we're Texas A&M Formula SAE Electric. We're engineering the future of racing –  high-performance electric vehicles designed, built, and raced by students. We tackle every aspect of race car development, from cutting-edge battery systems and powertrain design to advanced aerodynamics and lightning-fast data analysis. </p>
       </div>
     </div>
