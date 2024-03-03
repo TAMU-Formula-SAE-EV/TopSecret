@@ -1,100 +1,91 @@
 <template>
-    <div class="grid grid-row-3 mt-7 mb-7 gap-3">
+  <div v-if="mainStore.spooky" class="grid grid-row-3 pt-7 pb-7 gap-3 bg-black">
 
-        <img src="@/assets/footer/logo_black.png" class="mx-auto w-40">
+    <img src="@/assets/footer/logo_black.png" class="mx-auto  w-40">
 
-        <div class="flex items-center justify-center space-x-12">
-            <div class="">
-                <button
-                    @mouseover="handleMouseOver"
-                    @mouseleave="handleMouseLeave"
-                    class="w-20 p-0 border-none bg-transparent cursor-pointer transition-opacity duration-300"
-                >
-                <img 
-                    :src="currentImage"
-                    class="w-20"
-                    :class="{ 'opacity-50': hovering }"
-                >
-            </button>
-            </div>
-            <div class="text-2xl text-extrabold">/</div>
-            <div>
-                <button
-                    @mouseover="handleMouseOver_"
-                    @mouseleave="handleMouseLeave_"
-                    class="w-20 p-0 border-none bg-transparent cursor-pointer transition-opacity duration-300"
-                >
-                <img 
-                    :src="currentImage_"
-                    class="w-20"
-                    :class="{ 'opacity-50': hovering_ }"
-                >
-                </button>
-            </div>
-            <div class="text-2xl text-extrabold">/</div>
-            <div>
-                <button
-                    @mouseover="handleMouseOver__"
-                    @mouseleave="handleMouseLeave__"
-                    class="w-20 p-0 border-none bg-transparent cursor-pointer transition-opacity duration-300"
-                >
-                <img 
-                    :src="currentImage__"
-                    class="w-20"
-                    :class="{ 'opacity-50': hovering__ }"
-                >
-                </button>
-            </div>
-        </div>
-
-        <div class="flex items-center justify-center space-x-12 text-sm text-gray-600 text-u">
-            <div class="">
-                <button
-                >
-                {{ "Cars" }}
-                </button>
-            </div>
-            <div class=""> 
-                <button
-                >
-                {{ "TAMU SAE" }}
-                </button>
-            </div>
-            <div class=""> 
-                <button
-                >
-                {{ "SAE" }}
-                </button>
-            </div>
-            <div class=""> 
-                <button
-                >
-                {{ "Join the team" }}
-                </button>
-            </div>
-            <div class=""> 
-                <button
-                >
-                {{ "Donate" }}
-                </button>
-            </div>
-            <div class=""> 
-                <button
-                >
-                {{ "Contact us: tamuformulaelectric@gmail.com" }}
-                </button>
-            </div>
-            <div class=""> 
-                <button
-                >
-                {{ "Report an issue" }}
-                </button>
-            </div>
-        </div>
+    <div class="flex items-center justify-center space-x-8">
+      <img
+          :src="currentImage"
+          @mouseover="handleMouseOver"
+          @mouseleave="handleMouseLeave"
+          class="w-20 transition-opacity duration-300"
+          :class="{ 'opacity-50': hovering }"
+      >
+      <div class="text-2xl text-extrabold">/</div>
+      <img
+          :src="currentImage_"
+          @mouseover="handleMouseOver_"
+          @mouseleave="handleMouseLeave_"
+          class="w-20 transition-opacity duration-300"
+          :class="{ 'opacity-50': hovering_ }"
+      >
+      <div class="text-2xl text-extrabold">/</div>
+      <img
+          :src="currentImage__"
+          @mouseover="handleMouseOver__"
+          @mouseleave="handleMouseLeave__"
+          class="w-20 transition-opacity duration-300"
+          :class="{ 'opacity-50': hovering__ }"
+      >
     </div>
+
+    <div class="grid grid-cols-6 gap-1 text-xs md:text-sm text-white text-gray-600 text-center pr-4">
+      <div class="">Cars</div>
+      <div class="">TAMU SAE</div>
+      <div class="">SAE</div>
+      <div class="">Join the team</div>
+      <div class="">Donate</div>
+      <div class="">Report an issue</div>
+    </div>
+  </div>
+
+  <div v-else class="grid grid-row-3 pt-7 mb-7 gap-3">
+
+    <img src="@/assets/footer/logo_black.png" class="mx-auto w-40">
+
+    <div class="flex items-center justify-center space-x-8">
+      <img
+          :src="currentImage"
+          @mouseover="handleMouseOver"
+          @mouseleave="handleMouseLeave"
+          class="w-20 transition-opacity duration-300"
+          :class="{ 'opacity-50': hovering }"
+      >
+      <div class="text-2xl text-extrabold">/</div>
+      <img
+          :src="currentImage_"
+          @mouseover="handleMouseOver_"
+          @mouseleave="handleMouseLeave_"
+          class="w-20 transition-opacity duration-300"
+          :class="{ 'opacity-50': hovering_ }"
+      >
+      <div class="text-2xl text-extrabold">/</div>
+      <img
+          :src="currentImage__"
+          @mouseover="handleMouseOver__"
+          @mouseleave="handleMouseLeave__"
+          class="w-20 transition-opacity duration-300"
+          :class="{ 'opacity-50': hovering__ }"
+      >
+    </div>
+
+    <div class="grid grid-cols-6 gap-1 text-xs md:text-sm text-gray-600 text-center pr-4">
+      <div class="">Cars</div>
+      <div class="">TAMU SAE</div>
+      <div class="">SAE</div>
+      <div class="">Join the team</div>
+      <div class="">Donate</div>
+      <div class="">Report an issue</div>
+    </div>
+  </div>
 </template>
 
 <script setup lang="ts">
+
+import { useMainStore } from "@/store";
+
+const mainStore = useMainStore();
+
 import { ref } from 'vue';
 import img1 from '@/assets/footer/insta_bw.png'
 import img2 from '@/assets/footer/insta_color.png'
@@ -105,7 +96,6 @@ import youtube_bw from "@/assets/footer/youtube_bw.png"
 
 const hovering = ref(false);
 const currentImage = ref(img1);
-const buttonLink = ref("https://www.instagram.com/tamuformulaelectric/");
 
 const handleMouseOver = () => {
   hovering.value = true;
