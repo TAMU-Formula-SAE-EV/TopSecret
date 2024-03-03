@@ -12,16 +12,18 @@
     </div>
   </div> -->
 
-  <div class="w-full bg-cover bg-no-repeat h-auto text-center bg-[url('@/assets/about/2024-Team60.png')] p-16 flex-row flex mt-24">
-    <div class="p-8">
-      <h1 class="font-semibold text-4xl text-white pb-4" :class="mainStore.spooky ? 'text-white decoration-sky-600' : 'decoration-aggie-maroon'">Our Purpose</h1>
-      <p class="p-6 text-xl text-white text-center">The purpose of the Texas A&M Formula Electric FSAE Team is to develop high-quality engineers who excel in the field of sustainable transportation engineering, primarily through the hands-on design, manufacturing, and testing of an electric formula-style vehicle.</p>
+  <div class="w-full bg-cover bg-no-repeat h-auto text-center bg-[url('@/assets/about/2024-Team60.png')]">
+    <h1 class="mx-auto my-36 text-white text-4xl font-semibold">Meet the Team</h1>
+  </div>
+
+  <div class="flex flex-col w-full px-48">
+    <h1>Project Manager</h1>
+    <div class="flex flex-row justify-between">
+      <p>Gerry Mullins</p>
+      <p>Mechatronics</p>
     </div>
-    <div class="p-8">
-      <h1 class="font-semibold text-4xl text-white pb-4" :class="mainStore.spooky ? 'text-white decoration-sky-600' : 'decoration-aggie-maroon'">Our Vision</h1>
-      <p class="p-6 text-xl text-white text-center">
-      Our vision is to produce the highest caliber of engineering students by designing, building, and competing with an award-winning electric racecar. Through continuous improvement, teamwork, and a commitment to engineering principles and safety, we strive to create a foundation for success.
-      </p>
+    <div class="flex flex-row">
+      
     </div>
   </div>
 
