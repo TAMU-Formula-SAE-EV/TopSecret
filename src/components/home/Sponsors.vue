@@ -93,7 +93,6 @@
 
 <script setup lang="ts">
 import { useMainStore } from "@/store";
-import Sponsor from "@components/home/Partial/Sponsor.vue";
 
 const mainStore = useMainStore();
 </script>
