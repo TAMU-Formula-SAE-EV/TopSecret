@@ -199,7 +199,13 @@ const Powertrain: Member[] = [
         name: "Purav Datta",
         role: "Powertrain Engineer",
         major: "General Engineering",
-        linkedinURL: "https://www.linkedin.com/in/jc-ramos/"
+        linkedinURL: "https://www.linkedin.com/in/puravdatta/"
+    },
+    {
+        name: "Benjamin Smith",
+        role: "Powertrain Engineer",
+        major: "General Engineering",
+        linkedinURL: "https://www.linkedin.com/in/brody-smith-15593128a/"
     }
     
     
