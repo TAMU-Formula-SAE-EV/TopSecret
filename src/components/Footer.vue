@@ -11,9 +11,9 @@
                 class="w-40"
             >
             <div class="text-2xl text-extrabold">/</div>
-            <img src="@/assets/linkedin.png" class="w-20 mx-auto">
+            <img src="@/assets/footer/linkedin.png" class="w-20 mx-auto">
             <div class="text-2xl text-extrabold">/</div>
-            <img src="@/assets/youtube_bw.png" class="w-20 mx-auto">
+            <img src="@/assets/footer/youtube_bw.png" class="w-20 mx-auto">
         </div>
 
         <div class="grid grid-cols-6 gap-1 text-sm text-gray-600">
