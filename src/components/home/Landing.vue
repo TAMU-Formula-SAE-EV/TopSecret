@@ -1,7 +1,7 @@
 <template>
   <div class="">
-    <div v-if="mainStore.spooky" class="bg-[url('@/assets/home/crazy-wallpaper.png')] w-full bg-cover pb-16 bg-no-repeat bg-opacity-50 bg-center md:min-h-[750px]">
-        <div class="pt-96 pl-12 flex-col flex text-left">
+    <div v-if="mainStore.spooky" class="bg-[url('@/assets/home/crazy-wallpaper.png')] w-full justify-end flex flex-col bg-cover bg-no-repeat bg-opacity-50 bg-center md:min-h-[750px]">
+        <div class="pb-16 pt-24 pl-12 flex-col flex text-left">
             <p1 class="text-white font-semibold text-4xl pb-2">
                 Texas A&M Formula SAE EV 2024
             </p1>
@@ -21,8 +21,8 @@
             </div>
         </div>
     </div>
-  <div v-else class="bg-[url('@/assets/home/rsz_landingpage50.png')] mx-auto object-scale-down w-full bg-cover pb-16 bg-no-repeat bg-opacity-50 bg-center md:min-h-[750px]">
-    <div class="pt-96 pl-12 flex-col flex text-left">
+  <div v-else class="bg-[url('@/assets/home/rsz_landingpage50.png')] mx-auto justify-end flex flex-col object-scale-down w-full bg-cover bg-no-repeat bg-opacity-50 bg-center md:min-h-[750px]">
+    <div class="pb-16 pt-24 pl-12 flex-col flex text-left">
       <p1 class="text-white font-semibold text-4xl pb-2">
         Texas A&M Formula SAE EV 2024
       </p1>
