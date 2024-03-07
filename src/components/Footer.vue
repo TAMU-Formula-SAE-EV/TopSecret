@@ -4,6 +4,7 @@
     <img src="@/assets/footer/logo_black.png" class="mx-auto  w-40">
 
     <div class="flex items-center justify-center space-x-8">
+      <a href="https://www.instagram.com/tamuformulaelectric/">
       <img
           :src="currentImage"
           @mouseover="handleMouseOver"
@@ -11,7 +12,9 @@
           class="w-20 transition-opacity duration-300"
           :class="{ 'opacity-50': hovering }"
       >
+      </a>
       <div class="text-2xl text-extrabold">/</div>
+      <a href="https://www.linkedin.com/company/texas-a-m-fsae-electric-racing/mycompany/">
       <img
           :src="currentImage_"
           @mouseover="handleMouseOver_"
@@ -19,7 +22,9 @@
           class="w-20 transition-opacity duration-300"
           :class="{ 'opacity-50': hovering_ }"
       >
+      </a>
       <div class="text-2xl text-extrabold">/</div>
+      <a href="https://www.youtube.com/@tamuformulaelectric/featured">
       <img
           :src="currentImage__"
           @mouseover="handleMouseOver__"
@@ -27,6 +32,7 @@
           class="w-20 transition-opacity duration-300"
           :class="{ 'opacity-50': hovering__ }"
       >
+      </a>
     </div>
 
     <div class="grid grid-cols-6 gap-1 text-xs md:text-sm text-white text-gray-600 text-center pr-4">
@@ -44,6 +50,7 @@
     <img src="@/assets/footer/logo_black.png" class="mx-auto w-40">
 
     <div class="flex items-center justify-center space-x-8">
+      <a href="https://www.instagram.com/tamuformulaelectric/">
       <img
           :src="currentImage"
           @mouseover="handleMouseOver"
@@ -51,7 +58,9 @@
           class="w-20 transition-opacity duration-300"
           :class="{ 'opacity-50': hovering }"
       >
+      </a>
       <div class="text-2xl text-extrabold">/</div>
+      <a href="https://www.linkedin.com/company/texas-a-m-fsae-electric-racing/mycompany/">
       <img
           :src="currentImage_"
           @mouseover="handleMouseOver_"
@@ -59,7 +68,9 @@
           class="w-20 transition-opacity duration-300"
           :class="{ 'opacity-50': hovering_ }"
       >
+      </a>
       <div class="text-2xl text-extrabold">/</div>
+      <a href="https://www.youtube.com/@tamuformulaelectric/featured">
       <img
           :src="currentImage__"
           @mouseover="handleMouseOver__"
@@ -67,6 +78,7 @@
           class="w-20 transition-opacity duration-300"
           :class="{ 'opacity-50': hovering__ }"
       >
+      </a>
     </div>
 
     <div class="grid grid-cols-6 gap-1 text-xs md:text-sm text-gray-600 text-center pr-4">
