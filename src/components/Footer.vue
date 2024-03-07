@@ -35,7 +35,7 @@
       </a>
     </div>
 
-    <div class="grid grid-cols-6 gap-1 text-xs md:text-sm text-white text-gray-600 text-center pr-4">
+    <div class="grid grid-cols-6 gap-1 text-xs md:text-sm text-white text-gray-600 text-center pr-4 mt-3">
       <div class="">Cars</div>
       <div class="">TAMU SAE</div>
       <div class="">SAE</div>
@@ -81,7 +81,7 @@
       </a>
     </div>
 
-    <div class="grid grid-cols-6 gap-1 text-xs md:text-sm text-gray-600 text-center pr-4">
+    <div class="grid grid-cols-6 gap-1 text-xs md:text-sm text-gray-600 text-center pr-4 mt-3">
       <div class="">Cars</div>
       <div class="">TAMU SAE</div>
       <div class="">SAE</div>
