@@ -1,0 +1,195 @@
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2rem;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videoContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.videoStyle {
+    width: 150vh;
+}
+
+.recruitment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 1rem;
+    margin-bottom: 50px;
+}
+
+.recruitment-title {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.join {
+    text-align: center;
+}
+
+.join-title {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2rem;
+}
+
+.join-buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.join-button {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 0.5rem;
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .join-buttons-container {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .join-button {
+        margin: 0px 0;
+    }
+
+    .videoStyle {
+        width: 80vw;
+    }
+}
+
+.operations-button,
+.engineering-button,
+.business-button {
+    background-color: #500000;
+    color: white;
+}
+
+/* .contact {
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    position: relative;
+}
+
+.contact-title {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    height: 150px;
+    margin-bottom: 50px;
+}
+
+.send-button-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+} */
+
+/* .contact-form button {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 0.5rem;
+    background-color: #500000;
+    color: white;
+} */
+
+.contact-email {
+    margin-top: 20px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    text-align: center; 
+    flex-wrap: wrap; 
+    margin-bottom: 10rem;
+}
+
+.contact-email a {
+    text-decoration: underline;
+    color: #500000;
+}
+
+.subteams {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+@media (max-width: 900px) {
+    .subteams {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .subteam {
+        margin-bottom: 20px;
+    }
+
+    .contact-email{
+        font-size: .7rem;
+    }
+}
+
+.subteam {
+    width: 40vh;
+    margin-right: 4%; 
+    padding: 30px; 
+    border: 1px solid #500000; 
+    border-radius: 10px; 
+    box-sizing: border-box;
+}
+
+.subteam h2 {
+    font-size: 1.4em; 
+    margin-bottom: 15px; 
+}
+
+.subteam p {
+    margin: 0;
+}
