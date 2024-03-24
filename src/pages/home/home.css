@@ -109,10 +109,10 @@ html {
     font-weight: bold;
     color: var(--maroon);
     text-shadow: 
-    -2px -2px 5px rgba(239,234,234,0.8),  
-    2px -2px 5px rgba(239,234,234,0.8),
-    -2px  2px 5px rgba(239,234,234,0.8),
-    2px  2px 5px rgba(239,234,234,0.8);
+    -1px -1px 0 #efeaea,  
+     1px -1px 0 #efeaea,
+    -1px  1px 0 #efeaea,
+     1px  1px 0 #efeaea;
 }
 
 .countdown-item h1{
