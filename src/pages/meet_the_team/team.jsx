@@ -60,7 +60,7 @@ export default function Team() {
                     CHASSIS
                 </h1>
                 <h1 className="team-lead"><span className="team-lead-bold">Team Lead: </span>Caleb Miller</h1>
-                <h1 className="name">Jose Cruz, Jonathan Lozano, Jireh Lagman, Joshua Kraly</h1>
+                <h1 className="name">Jose Cruz, Jonathan Lozano, Jireh Lagman, <br/>Joshua Kraly</h1>
             </div>
 
             <div className="subteam-section">
