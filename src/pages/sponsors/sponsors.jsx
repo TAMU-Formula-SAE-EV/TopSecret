@@ -96,7 +96,7 @@ const Sponsors = () => {
                 <h1>JOIN OUR JOURNEY AS A SPONSOR</h1>
                 <h2>Help us support innovation in electric vehicle technology.</h2>
                 <button className="donate-button">
-                    <a href="https://www.gofundme.com/f/texas-am-sae-formula-electric-racing?utm_medium=more&utm_source=customer&utm_campaign=p_cp%2Bshare-sheet&utm_term=undefined" target='_blank'>DONATE</a>
+                    <a href="https://www.gofundme.com/f/texas-am-formula-sae-electric-racing" target='_blank'>DONATE</a>
                 </button>
             </section>
             <Footer />
