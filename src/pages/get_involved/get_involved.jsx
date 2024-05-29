@@ -3,6 +3,7 @@ import './get_involved.css';
 import GetInvolvedVideo from '../../assets/intro_vid.mp4';
 import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
+import { Link } from 'react-router-dom';
 
 const GetInvolved = () => {
   const [thankYouMessageVisible, setThankYouMessageVisible] = useState(false);
@@ -40,7 +41,7 @@ const GetInvolved = () => {
         <h1>Get Involved</h1>
       </div>
       <div className="videoContainer">
-        <video autoPlay muted controls className="videoStyle">
+        <video autoPlay muted playsInline controls preload="metadata" className="videoStyle">
           <source src={GetInvolvedVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
@@ -53,20 +54,15 @@ const GetInvolved = () => {
           <div className="subteam">
             <h2>Business:</h2>
             <p>Sales</p>
+            <p>Human Resources</p>
             <p>Marketing</p>
             <p>Finance</p>
+            <Link to="/get-involved/business-more-info">
+              <button className="business-button more-info-button">More Info</button>
+            </Link>
             {/* <a href="https://forms.office.com/pages/responsepage.aspx?id=44HzaNpGuUe6V28yK48NoSrqd-GpUQxLog_m04LE3ExUNUZUQVY4OVA2V0pVUDFCWE9aNU84NFpEUy4u"> */}
-              <button className="business-button join-button">Closed</button>
+            <button className="business-button join-button">Closed</button>
             {/* </a> */}
-          </div>
-          <div className="subteam">
-            <h2>Operations:</h2>
-            <p>Facilities Management</p>
-            <p>Transportation Logistics</p>
-            <p>Computer Science</p>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc5lz2CDG8bV8xVcwv9XsgCUsVMwg8ehZ37KLrOcfLQU92W7A/viewform">
-              <button className="operations-button join-button">Apply here</button>
-            </a>
           </div>
           <div className="subteam">
             <h2>Engineering:</h2>
@@ -76,9 +72,24 @@ const GetInvolved = () => {
             <p>Low-Voltage Electronics</p>
             <p>Powertrain</p>
             <p>Suspension</p>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfqrb4vc-XoosoE9pfsxD8bJV0U_gP9SCxY0DHdfq97Fp4jHw/viewform?pli=1">
-              <button className="engineering-button join-button">Apply here</button>
-            </a>
+            <Link to="/get-involved/engineering-more-info">
+              <button className="engineering-button more-info-button">More Info</button>
+            </Link>
+            {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLSfqrb4vc-XoosoE9pfsxD8bJV0U_gP9SCxY0DHdfq97Fp4jHw/viewform?pli=1"> */}
+              <button className="engineering-button join-button">Closed</button>
+            {/* </a> */}
+          </div>
+          <div className="subteam">
+            <h2>Operations:</h2>
+            <p>Facilities Management</p>
+            <p>Transportation Logistics</p>
+            <p>Computer Science</p>
+            <Link to="/get-involved/operations-more-info">
+              <button className="operations-button more-info-button">More Info</button>
+            </Link>
+            {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLSc5lz2CDG8bV8xVcwv9XsgCUsVMwg8ehZ37KLrOcfLQU92W7A/viewform"> */}
+            <button className="operations-button join-button">Closed</button>
+            {/* </a> */}
           </div>
         </div>
       </div>
@@ -96,7 +107,7 @@ const GetInvolved = () => {
         {thankYouMessageVisible && (
           <div id="thankYouMessage">Thanks for contacting us! We'll reach out soon.</div>
         )}
-      
+
       </div>
 
       <Footer />
