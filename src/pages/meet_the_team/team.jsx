@@ -87,7 +87,7 @@ export default function Team() {
                         Powertrain
                     </h1>
                     <h1 className="team-lead"><span className="team-lead-bold">Team Lead: </span>Adan Corral</h1>
-                    <h1 className="name">Robert Haefner, Nick Martin, Luis Diaz-Santini, Brody Smith, Purav Datta</h1>
+                    <h1 className="name">Robert Haefner, Nick Martin, Luis Diaz-Santini, Brody Smith, Purav Datta, Benjamin Smith</h1>
                     <h1 className="team-desc">The Powertrain subteam is responsible for the transmission of electrical power from the battery to mechanical power at the wheels. ​Specifically, the subteam aims to produce a powertrain that is reliable, easy to tune, and comfortable for the driver to work with, while also providing the power expected for strong performance at competition​.</h1>
                 </div>
 
