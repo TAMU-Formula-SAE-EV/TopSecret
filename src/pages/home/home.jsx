@@ -75,6 +75,7 @@ export default function Home(){
     }, []);
 
     return <div className="main-containter">
+        <meta name="google-site-verification" content="8yu6EF6wVpLw8wi9_4rxyPWOUP4Cu-ukERluEdTT2f4" />
         <Header/>
 
         <div className="landing-container" style={{backgroundImage: `url(${CarTwo})`}}>
