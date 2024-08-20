@@ -15,7 +15,6 @@ import { useToast } from "@/components/ui/use-toast"
 import './home.css';
 
 export default function Home(){
-<meta name="google-site-verification" content="8yu6EF6wVpLw8wi9_4rxyPWOUP4Cu-ukERluEdTT2f4" />
     const navigate = useNavigate();
 
     const targetDate = new Date('2025-06-12T19:00').getTime();
