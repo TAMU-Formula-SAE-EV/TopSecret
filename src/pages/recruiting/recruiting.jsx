@@ -23,7 +23,7 @@ export default function Recruiting() {
                         </p>
                         <div className="flex flex-col items-center space-y-5">
                             <a
-                                href="https://docs.google.com/forms/d/e/1FAIpQLSekwsZ7K0MFScxrIgcgv7Iqhqn1iXJTEEKHOSf_kgs8_tdieg/viewform"
+                                href="https://docs.google.com/forms/d/e/1FAIpQLSfqrb4vc-XoosoE9pfsxD8bJV0U_gP9SCxY0DHdfq97Fp4jHw/viewform?pli=1"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="bg-maroon text-white px-6 py-3 rounded-lg text-lg hover:bg-tamu-maroon transition-colors"
@@ -202,7 +202,16 @@ export default function Recruiting() {
                                 "Electrical integration of conductors and connectors"
                             ]}
                         />
-
+                        <TeamCard
+                            title="Software"
+                            description="The Software subteam is dedicated to developing and maintaining the software systems that control and monitor the vehicle’s performance, safety, and reliability."
+                            responsibilities={[
+                                "Development of embedded software for vehicle control systems",
+                                "Integration of sensors and actuators with vehicle control systems",
+                                "Development of data acquisition and telemetry systems",
+                                "Development of simulation tools for vehicle performance analysis"
+                            ]}
+                        />
                         <TeamCard
                             title="Suspension"
                             description="The Suspension subteam provides a reliable and predictable interaction between the car and the ground."
@@ -313,19 +322,7 @@ export default function Recruiting() {
                             ]}
                         />
 
-                        <TeamCard
-                            title="Computer Science"
-                            description="The Computer Science subteam will be an integral part of interdisciplinary projects, collaborating closely with both engineering and business teams. The subteam’s primary focus will be on developing solutions that leverage automation, machine learning, and data analysis to address various challenges faced by the organization."
-                            responsibilities={[
-                                "Work collaboratively in small groups of 4-5 individuals to conceptualize, design, and implement software solutions that meet the project objectives",
-                                "Develop robust and scalable software solutions, with a particular emphasis on automation, machine learning algorithms, and data analysis techniques",
-                                "Maintain and continue to develop the Electric Vehicle team’s website",
-                                "Take ownership of documenting all aspects of the software development process, including architecture, codebase, APIs, data models, and algorithms",
-                                "Ensure that documentation is clear, comprehensive, and accessible to both technical and non-technical stakeholders",
-                                "Conduct thorough testing and debugging of software to identify and rectify any defects or inconsistencies",
-                                "Actively seek opportunities to enhance existing processes, tools, and methodologies to improve efficiency and effectiveness"
-                            ]}
-                        />
+
                     </div>
                 </section>
 
