@@ -15,6 +15,7 @@ import { useToast } from "@/components/ui/use-toast"
 import './home.css';
 
 export default function Home(){
+
     const navigate = useNavigate();
 
     const targetDate = new Date('2025-06-12T19:00').getTime();
@@ -34,6 +35,8 @@ export default function Home(){
             description: <ToastDescription>Help us innovate in electric vehicle technology. Consider donating today!</ToastDescription>,
             action: <ToastAction altText="Donate Now" onClick={handleDonateClick}>Donate Now</ToastAction>,
             duration: 5000,
+            position: "bottom-right",
+            
         });
     }, []);
 
@@ -74,7 +77,6 @@ export default function Home(){
     }, []);
 
     return <div className="main-containter">
-        
         <Header/>
 
         <div className="landing-container" style={{backgroundImage: `url(${CarTwo})`}}>
@@ -96,6 +98,14 @@ export default function Home(){
             </div>
             <div className="scroll-down"></div>
         </div>
+        
+        <section className="home-join-team-section">
+                <h1>JOIN OUR TEAM</h1>
+                <h2>Help us build the next winning racecar.</h2>
+                <button className="recruiting-button">
+                    <a target='_blank' href='/recruiting'>JOIN US</a>
+                </button>
+        </section>
 
         <div className="car-showcase">
             <h1 className='showcase-title'>AME24</h1>
