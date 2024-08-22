@@ -305,6 +305,7 @@ section.home-join-team-section button.recruiting-button{
 
 section.home-join-team-section button.recruiting-button a{
     color: white;
+    background-color: black;
     text-decoration: none;
 }
 
