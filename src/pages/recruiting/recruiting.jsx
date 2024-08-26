@@ -135,7 +135,7 @@ export default function Recruiting() {
                             <h3 className="text-xl font-bold text-maroon mb-2">Engineering Applications Close</h3>
                             <p className="text-gray-700">
                                 <br /><br />
-                                <b>When?</b> Friday, August 30th 2024, 12:00 PM<br />
+                                <b>When?</b> Friday, August 30th 2024, 11:59 PM<br />
                                 <b>Where?</b> Online<br />
                             </p>
                         </div>
