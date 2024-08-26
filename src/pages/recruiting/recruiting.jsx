@@ -108,27 +108,35 @@ export default function Recruiting() {
                     <h2 className="text-3xl font-bold mb-6">Upcoming Events</h2>
                     <div className="grid md:grid-cols-3 gap-6">
                         <div className="bg-gray-100 p-4 rounded-lg shadow">
-                            <h3 className="text-xl font-bold text-maroon mb-2">FSAE EV Bannering</h3>
+                            <h3 className="text-xl font-bold text-maroon mb-2">FSAE EV Coffee Chats</h3>
                             <p className="text-gray-700">
-                                Come out to see last year's competition car, pick up team stickers, and talk to team members to learn more about Texas A&M Formula SAE Electric! <br /><br /><br />
-                                <b>When?</b> August 19th - 23rd 2024, 9:00 AM - 4:00 PM<br />
-                                <b>Where?</b> Between Zachry Engineering Building & E-Quad<br />
+                                Come out to meet the team, and ask any questions you have! <br /><br /><br />
+                                <b>When?</b> Wednesday, August 28th 2024, 5:00 PM - 7:00 PM<br />
+                                <b>Where?</b> Zachry Starbucks and Quadbucks<br />
                             </p>
                         </div>
                         <div className="bg-gray-100 p-4 rounded-lg shadow">
-                            <h3 className="text-xl font-bold text-maroon mb-2">TAMU SAE x Red Bull</h3>
+                            <h3 className="text-xl font-bold text-maroon mb-2">SAE General Informational</h3>
                             <p className="text-gray-700">
-                                Check out Red Bull's iconic Formula 1 show car and enjoy some free red bull! We'll be posting up with AME '24, offering team stickers, and team members will be available to chat!<br /><br />
-                                <b>When?</b> Friday, August 23rd 2024, 9:00 AM - 4:00 PM<br />
-                                <b>Where?</b> E-Quad<br />
-                            </p>
-                        </div>
-                        <div className="bg-gray-100 p-4 rounded-lg shadow">
-                            <h3 className="text-xl font-bold text-maroon mb-2">SAE First General Meeting</h3>
-                            <p className="text-gray-700">
-                                Learn how to get involved with SAE and Texas A&M Formula SAE Electric! <br /><br /> <br /><br /> <br />
+                                Get all the information you need about SAE, learn about our development program, and hear from the project teams. <br /><br />
                                 <b>When?</b> Monday, August 26th 2024, 7:00 PM - 9:00 PM<br />
                                 <b>Where?</b> HECC 108<br />
+                            </p>
+                        </div>
+                        <div className="bg-gray-100 p-4 rounded-lg shadow">
+                            <h3 className="text-xl font-bold text-maroon mb-2">Project Team Informational</h3>
+                            <p className="text-gray-700">
+                                Learn how to get involved with SAE and Texas A&M Formula SAE Electric! <br /><br /> <br /><br /> <br />
+                                <b>When?</b> Wednesday, August 28th 2024, 7:00 PM - 9:00 PM<br />
+                                <b>Where?</b> HECC 207<br />
+                            </p>
+                        </div>
+                        <div className="bg-gray-100 p-4 rounded-lg shadow">
+                            <h3 className="text-xl font-bold text-maroon mb-2">Engineering Applications Close</h3>
+                            <p className="text-gray-700">
+                                <br /><br /> <br /><br /> <br />
+                                <b>When?</b> Friday, August 30th 2024, 12:00 PM<br />
+                                <b>Where?</b> Online<br />
                             </p>
                         </div>
                     </div>
