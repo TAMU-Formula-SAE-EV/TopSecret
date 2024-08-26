@@ -126,7 +126,7 @@ export default function Recruiting() {
                         <div className="bg-gray-100 p-4 rounded-lg shadow">
                             <h3 className="text-xl font-bold text-maroon mb-2">Project Team Informational</h3>
                             <p className="text-gray-700">
-                                Learn how to get involved with SAE and Texas A&M Formula SAE Electric! <br /><br /> <br /><br /> <br />
+                                Learn how to get involved with SAE and Texas A&M Formula SAE Electric! <br /><br /> <br />
                                 <b>When?</b> Wednesday, August 28th 2024, 7:00 PM - 9:00 PM<br />
                                 <b>Where?</b> HECC 207<br />
                             </p>
@@ -134,7 +134,7 @@ export default function Recruiting() {
                         <div className="bg-gray-100 p-4 rounded-lg shadow">
                             <h3 className="text-xl font-bold text-maroon mb-2">Engineering Applications Close</h3>
                             <p className="text-gray-700">
-                                <br /><br /> <br /><br /> <br />
+                                <br /><br />
                                 <b>When?</b> Friday, August 30th 2024, 12:00 PM<br />
                                 <b>Where?</b> Online<br />
                             </p>
