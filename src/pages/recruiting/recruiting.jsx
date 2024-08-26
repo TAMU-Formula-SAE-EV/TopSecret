@@ -108,19 +108,19 @@ export default function Recruiting() {
                     <h2 className="text-3xl font-bold mb-6">Upcoming Events</h2>
                     <div className="grid md:grid-cols-3 gap-6">
                         <div className="bg-gray-100 p-4 rounded-lg shadow">
-                            <h3 className="text-xl font-bold text-maroon mb-2">FSAE EV Coffee Chats</h3>
-                            <p className="text-gray-700">
-                                Come out to meet the team, and ask any questions you have! <br /><br /><br />
-                                <b>When?</b> Wednesday, August 28th 2024, 5:00 PM - 7:00 PM<br />
-                                <b>Where?</b> Zachry Starbucks and Quadbucks<br />
-                            </p>
-                        </div>
-                        <div className="bg-gray-100 p-4 rounded-lg shadow">
                             <h3 className="text-xl font-bold text-maroon mb-2">SAE General Informational</h3>
                             <p className="text-gray-700">
                                 Get all the information you need about SAE, learn about our development program, and hear from the project teams. <br /><br />
                                 <b>When?</b> Monday, August 26th 2024, 7:00 PM - 9:00 PM<br />
                                 <b>Where?</b> HECC 108<br />
+                            </p>
+                        </div>
+                        <div className="bg-gray-100 p-4 rounded-lg shadow">
+                            <h3 className="text-xl font-bold text-maroon mb-2">FSAE EV Coffee Chats</h3>
+                            <p className="text-gray-700">
+                                Come out to meet the team, and ask any questions you have! <br /><br /><br />
+                                <b>When?</b> Wednesday, August 28th 2024, 5:00 PM - 7:00 PM<br />
+                                <b>Where?</b> Zachry Starbucks and Quadbucks<br />
                             </p>
                         </div>
                         <div className="bg-gray-100 p-4 rounded-lg shadow">
